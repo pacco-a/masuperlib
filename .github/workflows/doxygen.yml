@@ -14,6 +14,10 @@ jobs:
     # Build Doxygen documentation
     # mattnotmitt/doxygen-action
     # https://github.com/marketplace/actions/doxygen-action
+    - with:
+      working-directory: 'submodule/'
+      doxyfile-path: 'docs/Doxygen'
+
 
     # Deploy Doxygen documentation
     # peaceiris/actions-gh-pages
