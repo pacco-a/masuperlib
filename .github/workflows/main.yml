@@ -23,4 +23,6 @@ jobs:
         make
 
     # Run tests
-
+    - name : Run tests
+      run: |
+        ./masuperlib-test
