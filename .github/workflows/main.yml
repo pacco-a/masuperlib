@@ -17,6 +17,10 @@ jobs:
         sudo apt-get install -yq cmake catch2
 
     # Build project
+    - name: Build project
+      run: |
+        cmake .
+        make
 
     # Run tests
 
